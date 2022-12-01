@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "8mrB9dnM5NwlaSZanjMppmljBqMvbWAavu4gMpLpUCh9IQpToS7ZCkMaGl9X+STibHp/u419XCOp82vLGtx/tQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\samuel.vieira\\source\\pocs\\UnitOfrWork\\Fonte\\UnitOfwork\\Utils\\Utils.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samuel.vieira\\.nuget\\packages\\awssdk.core\\3.7.100.26\\awssdk.core.3.7.100.26.nupkg.sha512",
+    "C:\\Users\\samuel.vieira\\.nuget\\packages\\awssdk.secretsmanager\\3.7.100.26\\awssdk.secretsmanager.3.7.100.26.nupkg.sha512",
+    "C:\\Users\\samuel.vieira\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\samuel.vieira\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\samuel.vieira\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\7.0.0\\microsoft.extensions.configuration.environmentvariables.7.0.0.nupkg.sha512",
+    "C:\\Users\\samuel.vieira\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\7.0.0\\microsoft.extensions.configuration.fileextensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\samuel.vieira\\.nuget\\packages\\microsoft.extensions.configuration.json\\7.0.0\\microsoft.extensions.configuration.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\samuel.vieira\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\samuel.vieira\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\7.0.0\\microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
+    "C:\\Users\\samuel.vieira\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\7.0.0\\microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
+    "C:\\Users\\samuel.vieira\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\samuel.vieira\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\samuel.vieira\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\samuel.vieira\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
