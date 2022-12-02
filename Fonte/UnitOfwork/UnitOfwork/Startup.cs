@@ -24,8 +24,7 @@ namespace UnitOfwork
             services.AddConfigurationApi(Configuration);
             services.ResolveDependency();
             services.AddSwaggerSettings();
-
-            services.AddDbContext<PeopleContext>(options => options.UseSqlServer(DbConnection));
+            services.DbStringConnection();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline

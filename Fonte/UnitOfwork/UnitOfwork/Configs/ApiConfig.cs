@@ -1,9 +1,17 @@
-﻿using UnitOfwork.Middleware;
+﻿using DataAccessEF;
+using Microsoft.EntityFrameworkCore;
+using UnitOfwork.Middleware;
+using Utils;
 
 namespace UnitOfwork.Configs
 {
     public static class ApiConfig
     {
+        private readonly static string DbConnection;
+        static  ApiConfig()
+        {
+            DbConnection = new SecretsManager().ConnectionStringLocal;
+        }
         public static IServiceCollection AddConfigurationApi(this IServiceCollection services, IConfiguration Configuration)
         {
             services.AddControllers();
@@ -20,6 +28,12 @@ namespace UnitOfwork.Configs
             });
 
             return services;
+        }
+
+        public static IServiceCollection DbStringConnection(this IServiceCollection services)
+        {
+            var connection = services.AddDbContext<PeopleContext>(options => options.UseSqlServer(DbConnection));
+            return connection;
         }
 
         public static IApplicationBuilder UsingConfigurationApi(this IApplicationBuilder app, IWebHostEnvironment env)
