@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataAccessEF</name>
+    </assembly>
+    <members>
+        <member name="T:DataAccessEF.Migrations.CreateInitialDB">
+            <inheritdoc />
+        </member>
+        <member name="M:DataAccessEF.Migrations.CreateInitialDB.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:DataAccessEF.Migrations.CreateInitialDB.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:DataAccessEF.Migrations.CreateInitialDB.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
